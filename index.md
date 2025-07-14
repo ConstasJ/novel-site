@@ -10,9 +10,6 @@ hero:
     - theme: brand
       text: 《渡边君的青空》作品企划
       link: /watanabe-kun/proposal.md
-    - theme: alt
-      text: 《秀知院物语》总企划
-      link: /api-examples
 
 features:
   - title: 渡边君的青空
