@@ -10,9 +10,6 @@ hero:
     - theme: brand
       text: 《渡边君的青空》作品企划
       link: /watanabe-kun/proposal.md
-    - theme: alt
-      text: 《秀知院物语》总企划
-      link: /api-examples
 
 features:
   - title: 渡边君的青空
@@ -24,4 +21,3 @@ features:
   - title: 秀知院物语
     details: 一部宏大的，涉及多个世界观的巨型企划。通过对不同IP的融合以及多个世界观的刻画，描绘一部包含了社会生活几乎所有领域的史诗。
 ---
-
