@@ -4,6 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "ConstasJ的创作园地",
   description: "这里可以看到我关于打算创作的原创和二创作品的企划、设定与草稿",
+  cleanUrls: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
