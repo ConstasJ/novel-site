@@ -20,6 +20,12 @@ export default defineConfig({
             { text: "想说的话", link: "/watanabe-kun/author-talk.md" },
           ],
         },
+        {
+          text: "归档",
+          items: [
+            { text: "作品企划(旧版)", link: "/watanabe-kun/proposal-old.md" }
+          ],
+        }
       ],
     },
 
