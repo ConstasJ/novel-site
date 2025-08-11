@@ -10,6 +10,7 @@ export default defineConfig({
     nav: [
       { text: "主页", link: "/" },
       { text: "《渡边君的青空》", link: "/watanabe-kun/proposal.md" },
+      { text: "《秀知院物语》", link: "/shumono/draft/interlogue-1.md" },
     ],
 
     sidebar: {
@@ -28,6 +29,29 @@ export default defineConfig({
           ],
         }
       ],
+      '/shumono/': [
+        {
+          text: '草稿',
+          items: [
+            {
+              text: '间章第1话',
+              link: '/shumono/draft/interlogue-1.md',
+            },
+            {
+              text: '间章第2话',
+              link: '/shumono/draft/interlogue-2.md',
+            },
+            {
+              text: '间章第3话',
+              link: '/shumono/draft/interlogue-3.md',
+            },
+            {
+              text: '间章If:众议院虚拟答辩',
+              link: '/shumono/draft/shugiin-consult-virt.md',
+            }
+          ]
+        }
+      ]
     },
 
     socialLinks: [
@@ -49,7 +73,7 @@ export default defineConfig({
     },
     footer: {
       message: '<a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2025131681号</a>',
-      copyright: 'Copyright © 2025 <a href="https://github.com/ConstasJ" target="_blank">ConstasJ</a> | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">CC BY-NC-SA 4.0</a>'
+      copyright: 'Copyright © 2025 <a href="https://github.com/ConstasJ" target="_blank">ConstasJ</a> | 本网站一切原创内容按照 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans" target="_blank">CC BY-NC-SA 4.0</a> 授权'
     }
   },
 });
