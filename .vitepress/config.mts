@@ -42,12 +42,16 @@ export default defineConfig({
               link: '/shumono/draft/interlogue-2.md',
             },
             {
+              text: '间章If:众议院虚拟答辩',
+              link: '/shumono/draft/shugiin-consult-virt.md',
+            },
+            {
               text: '间章第3话',
               link: '/shumono/draft/interlogue-3.md',
             },
             {
-              text: '间章If:众议院虚拟答辩',
-              link: '/shumono/draft/shugiin-consult-virt.md',
+              text: '间章第4话',
+              link: '/shumono/draft/interlogue-4.md',
             }
           ]
         }
